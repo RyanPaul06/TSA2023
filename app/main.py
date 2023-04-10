@@ -269,7 +269,7 @@ with st.container():
         pass
     with col13:
         pass
-    url2 =  "https://medicare-fraud.onrender.com/Fraud_detection_single"
+    url2 =  "https://medicare-fraud.onrender.com/Fraud_detection_multiple"
     if(uploaded):
         with st.spinner('Processing ...'):
             if uploaded_file is not None:
@@ -308,16 +308,4 @@ with st.container():
                         st.download_button(label="Download & Clear",data=buffer2,file_name='Processed_'+uploaded_file.name[:-3]+'xlsx',mime="application/vnd.ms-excel")
                         
                        
-                        
                 
-        
-                
-
-
-
-
-
-
-
-
-        
